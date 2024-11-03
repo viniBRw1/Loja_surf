@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue", sans-serif;
+}
+header{
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px red solid;
+    position: relative;
+    padding: 5px;
+}
+header div{ 
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    text-transform: uppercase;
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+}
+.nav_bar{
+    position: absolute;
+}
+.nav_bar input{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.nav_bar span{
+    border: 1px solid black;
+    width: 30vw;
+    padding: 5px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.opçoes{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+.opçoes ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1vw;
+}
+.opçoes a{
+    color: black;
+    text-decoration: none;
+    transition: font-size 0.5s , color 0.5s;
+}
+.opçoes a:hover{
+    color: red;
+    font-size:18px ;
+}
+.banner{
+    height: 60vh;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center;
+    display: flex;
+    align-items: self-end;
+    border-bottom: 1px solid red;
+}
+.banner_text{
+    position: absolute;
+    margin: 40px;
+    border-left: 2px solid rgb(212, 26, 26) ;
+    
+}
+.txt_principal{
+    text-transform: uppercase;
+    font-size: 22px;
+    color: rgb(232, 233, 235);
+    margin-left: 10px;
+}
+.txt_secundario{
+    font-size: 19px;
+    margin-left: 29px;
+    font-style: italic;
+    color: gold;
+}
+footer{
+    padding-top: 20px;
+}
+.footer_primary{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_primary ul{
+    list-style: none;
+    line-height: 30px;
+}
+.footer_primary h2{
+    margin-bottom: 20px;
+}
+.footer_primary i {
+    margin-right: 5px;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    transition: font-size 0.5s , color 0.5s;
+}
+footer a:hover{
+    color: red;
+    font-size:18px ;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.newsletter input{
+    border: none;
+    border-bottom: 1px black solid;
+    outline: none;
+    font-size: 18px;
+    transition: padding 0.5s , font-size 0.5s;
+
+}
+.newsletter input:focus{
+    font-size: 20px;
+    border-bottom: red solid 1px;
+    padding: 3px;
+}
+.newsletter button{
+    border: black 1px solid;
+    background-color: transparent;
+    padding: 5px;
+    font-size: 18px;
+    transition: color 0.5s , padding 0.5s;
+}
+.newsletter button:hover{
+    border: solid 1px red;
+    color: red;
+    padding: 8px;
+}
+.footer_secundary{
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+
+
